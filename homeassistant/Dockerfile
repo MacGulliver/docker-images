@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:latest
+FROM homeassistant/home-assistant
 LABEL org.freenas.interactive="false" \
       org.freenas.version="latest" \
       org.freenas.upgradeable="true" \
