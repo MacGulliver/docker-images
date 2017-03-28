@@ -1,6 +1,6 @@
-FROM homeassistant/home-assistant
+FROM homeassistant/home-assistant:0.41
 LABEL org.freenas.interactive="false" \
-      org.freenas.version="latest" \
+      org.freenas.version="0.41" \
       org.freenas.upgradeable="true" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
